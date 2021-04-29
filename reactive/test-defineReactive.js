@@ -12,4 +12,3 @@ new Watcher(vm, 'foo.a', function (val, prevVal){
 
 vm.foo.a = 444
 
-// console.log(foo);
