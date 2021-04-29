@@ -1,5 +1,5 @@
-const {Observer} = require('./Observer')
-const {Watcher} = require('./Watcher')
+const {Observer} = require('../Observer')
+const {Watcher} = require('../Watcher')
 
 let vm = {}
 vm.bar = new Observer({a: 123, d: 444, f: {z: 55, x: 76}})

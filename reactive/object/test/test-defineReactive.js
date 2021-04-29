@@ -1,5 +1,5 @@
-const {defineReactive} = require('./defineReactive')
-const {Watcher} = require('./Watcher')
+const {defineReactive} = require('../defineReactive')
+const {Watcher} = require('../Watcher')
 const vm = {}
 vm.foo = {}
 defineReactive(vm.foo, 'a', 'sdf')
